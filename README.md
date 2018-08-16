@@ -1,2 +1,1 @@
 # jgit-exmaple
-j
