@@ -1,0 +1,105 @@
+package com.alight.clients;
+
+
+
+import com.alight.exception.InvalidUserException;
+
+
+import com.alight.utils.GitUtils;
+
+
+import com.alight.utils.MyConstant;
+
+
+
+public class MyTest {
+
+
+	public static void main(String[] args)  {
+
+
+		try {
+
+
+			//GitUtils.gitTestConnection(MyConstant.username, MyConstant.pwd,MyConstant.url);
+
+
+			//GitUtils.getAllGitBranches();
+
+
+			//GitUtils.getAllGitBranches(MyConstant.username, MyConstant.pwd,MyConstant.url,"TestGitRepository");
+
+
+			//GitUtils.getGitFiles();
+
+
+			//GitUtils.checkInFile("test.txt");
+
+
+		   // GitUtils.addAndCommit("test.txt","update has been commited");
+
+
+		    //GitUtils.validateRepository("test", MyConstant.username, MyConstant.pwd);
+
+
+			//GitUtils.getRevisionId();
+
+
+			//GitUtils.commitAndPush();
+
+
+			//GitUtils.mergeFile("alight.txt","Welcome to india","changes");
+
+
+			//GitUtils.addAndCommit("alight.txt","file merga has been commited");
+
+
+			//GitUtils.gitPull();
+
+
+		//	GitUtils.getPullFile();
+
+
+			//GitUtils.treeStructureValue();
+
+
+			//GitUtils.printDirectory();
+
+
+			//GitUtils.printFile();
+
+
+			GitUtils.getSpecificFile();
+
+
+			//GitUtils.printFile();
+
+
+		} /*catch (InvalidUserException e) {
+
+
+			System.out.println(e.getMessage());
+
+
+			e.printStackTrace();
+
+
+		} */catch (Exception e) {
+
+
+			// TODO Auto-generated catch block
+
+
+			System.out.println(e.getMessage());
+
+
+			e.printStackTrace();
+
+
+		}
+
+
+	}
+
+
+}
